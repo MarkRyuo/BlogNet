@@ -3,7 +3,8 @@ import './App.css'
 function App() {
 
   const Title = 'New Blog' ;
-  const likes = '90 Likes' 
+  const Likes = '90 Likes' ;
+  const Person
 
 
   return (
@@ -14,7 +15,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>{Title}</h1>
-            <p>{}</p>
+            <p>{Likes}</p>
         </div>
       </div>
     </>
