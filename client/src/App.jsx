@@ -4,7 +4,12 @@ function App() {
 
   const Title = 'New Blog' ;
   const Likes = '90 Likes' ;
-  const Person
+  const Person = {
+    person1 : {
+      name: 'Moda',
+      age: 19
+    }
+  }
 
 
   return (
@@ -15,6 +20,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>{Title}</h1>
+            <p>{...Person.name}</p>
             <p>{Likes}</p>
         </div>
       </div>
