@@ -2,7 +2,8 @@ import './App.css'
 
 function App() {
 
-  const Title = 'New Blog' ; 
+  const Title = 'New Blog' ;
+  const likes = '90 Likes' 
 
 
   return (
