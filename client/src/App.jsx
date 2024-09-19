@@ -10,6 +10,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>New Blog</h1>
+            <p>Test Blog</p>
         </div>
       </div>
     </>
