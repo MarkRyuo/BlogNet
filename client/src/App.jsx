@@ -2,6 +2,9 @@ import './App.css'
 
 function App() {
 
+  const Title = 'New Blog'
+
+
   return (
     <>
       <div className='App'>
