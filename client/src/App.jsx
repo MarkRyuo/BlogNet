@@ -14,7 +14,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>{Title}</h1>
-            <p>Test Blog</p>
+            <p>{}</p>
         </div>
       </div>
     </>
