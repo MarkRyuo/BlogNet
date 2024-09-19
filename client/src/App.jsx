@@ -2,7 +2,7 @@ import './App.css'
 
 function App() {
 
-  const Title = 'New Blog'
+  const Title = 'New Blog' ; 
 
 
   return (
@@ -12,7 +12,7 @@ function App() {
           <h1>Navigation</h1>
         </nav>
         <div className='Content'>
-            <h1>New Blog</h1>
+            <h1>{Title}</h1>
             <p>Test Blog</p>
         </div>
       </div>
