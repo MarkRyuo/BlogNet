@@ -9,7 +9,9 @@ function App() {
           <h1>Navigation</h1>
         </nav>
         <div className='Content'>
-            <h3>Body</h3>
+            <div>
+              
+            </div>
         </div>
       </div>
     </>
