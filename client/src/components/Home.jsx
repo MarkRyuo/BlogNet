@@ -1,7 +1,12 @@
 import MainContent from './Home.module.css' ;
 
 
-//* Css Module
+//* Css Module 
+/* 
+
+Create a Css Module : e.g Home.module.css 
+
+*/
 export const Home = () => {
     
     const Title = 'New Blog' ;
@@ -12,7 +17,7 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContent}>
-                <h1 className={}>{Title}</h1>
+                <h1 className={MainContent.Title}>{Title}</h1>
                 <a href={Link}>Google</a>
                 <p>{Likes}</p>
             </div>
