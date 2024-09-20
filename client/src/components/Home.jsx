@@ -20,7 +20,7 @@ export const Home = () => {
                 <div className={MainContent.blogContent}>
                     {blogs.map(() => (
                         <div key={blogs.id}>
-
+                            
                         </div>
                     ))}
                 </div>
