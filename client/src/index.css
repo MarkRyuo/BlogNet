@@ -12,17 +12,11 @@ nav {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-
-.Content {
-    width: 100%;
-    /** Fix width*/
-    height: 180px;
-    /* border: 1px solid; */
-
-    display: flex;
-    justify-content: center;
+h1 {
+    margin-left: 5px;
 }
 
 .nav-link {
