@@ -32,26 +32,27 @@
     height: 80px;
     display: grid;
 
-    grid-template-columns: repeat(10, 1fr) ;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr) ;
+    grid-template-rows: repeat(2, 20px);
 
 
 
 }
 
 .blogImg {
-    border: 1px solid;
+    /* border: 1px solid; */
 
     font-weight: 500;
     padding: 10px 10px; /** x and y */
     text-align: center;
-    grid-column: 1 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 5;
+    text-align: end;
 
 }
 
 .blogCredential {
-    border: 1px solid;
-    grid-column: 4 / 9 ;
+    /* border: 1px solid; */
+    grid-column: 3 / 5 ;
     grid-row: 1 / 5;
 }
