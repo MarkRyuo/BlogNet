@@ -2,7 +2,7 @@
 
 
 ## V1.2 
-    Multiple Components
+    Multiple Components / Adding Styles
 
 
     V1.1
