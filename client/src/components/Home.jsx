@@ -12,7 +12,7 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContent}>
-                <h1>{Title}</h1>
+                <h1 className={}>{Title}</h1>
                 <a href={Link}>Google</a>
                 <p>{Likes}</p>
             </div>
