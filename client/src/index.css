@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #30302f;
+}
+
+nav {
+    height: 70px;
+    /* *Fix width */
+    /* border: 1px solid; */
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 200px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link a {
+    text-decoration: none;
+}
+

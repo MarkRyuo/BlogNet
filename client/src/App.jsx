@@ -1,27 +1,17 @@
-import './App.css'
+import { Home } from './components/Home';
+import { NavBar } from './components/NavBar';
 
 //? Dynamic Values and Templates
 
 function App() {
 
-  const Title = 'New Blog' ;
-  const Likes = '90 Likes' ;
-  //*const Person = { name: 'Moda', age: 19 }
-  const Link = 'https://www.google.com/' ;
-
 
   return (
     <>
       <div className='App'>
-        <nav>
-          <h1>Navigation</h1>
-        </nav>
+        <NavBar />
         <div className='Content'>
-            <div className='main-Content'>
-                <h1>{Title}</h1>
-                <a href={Link}>Google</a>
-                <p>{Likes}</p>
-            </div>
+          <Home />
         </div>
       </div>
     </>
