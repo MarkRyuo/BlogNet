@@ -5,7 +5,7 @@
 export const NavBar = () => {
 
     const handleClick = (user) => {
-        console.log("Clicked by : " + user)
+        console.log("Clicked by: " + user)
     }
 
     return (
