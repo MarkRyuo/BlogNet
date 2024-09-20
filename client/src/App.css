@@ -7,9 +7,10 @@
 
 .Content {
     width: 100%;
+    border: 1px solid;
 }
 
 .Content .main-Content {
     width: 100%;
-    max-width: ;
+    max-width: 500px;
 }
