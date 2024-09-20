@@ -1,6 +1,7 @@
+import MainContent from './Home.module.css' ;
 
 
-export const Bloglist = () => {
+export const Bloglist = (props) => {
 
     return (
         <>
@@ -8,7 +9,7 @@ export const Bloglist = () => {
                 {blogs.map((blog) => (
                     <div className={MainContent.blogContent} key={blog.id}>
                         <h1>Title: {blog.title}</h1>
-                            <p>Written by: {blog.author}</p>
+                        <p>Written by: {blog.author}</p>
                     </div>
                 ))}
             </div>
