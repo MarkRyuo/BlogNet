@@ -6,7 +6,9 @@ export const NavBar = () => {
 
     const [navTitle, setNavTitle ] = useState("BlogNet")
 
-    
+    const handleChange = () => {
+        setNavTitle("Blog.Net")
+    }
 
     return (
         <nav>
