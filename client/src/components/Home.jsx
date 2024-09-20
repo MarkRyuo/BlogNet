@@ -23,7 +23,7 @@ export const Home = () => {
                     </div>
                     <div className={MainContent.blogCredential}>
                         <a href=''>Jhon Mark Malupa</a> 
-                        <p>Unknown</p>
+                        <p>Hello World</p>
                     </div>
                 </div>
             </div>
