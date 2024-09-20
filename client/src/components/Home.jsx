@@ -1,3 +1,4 @@
+import { Bloglist } from './Bloglist';
 import MainContent from './Home.module.css' ;
 import { useState } from 'react';
 
@@ -17,7 +18,7 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContainer}>
-                
+                <Bloglist />
             </div>
         </>
     );
