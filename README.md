@@ -1,10 +1,16 @@
 # BlogNet
 
 
-## V1.2 
-    Multiple Components / Adding Styles
-    CSS Module
-    Clicking Events
+## v1.3 latest 
+    
+    v1.3 
+        Blog Dashboard Testing Design
+
+
+    V1.2 
+        Multiple Components / Adding Styles
+        CSS Module
+        Clicking Events
 
 
     V1.1
