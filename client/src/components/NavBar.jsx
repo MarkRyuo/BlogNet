@@ -12,7 +12,7 @@ export const NavBar = () => {
         <nav>
             <h1 className="nav-Title">BlogNet</h1>
             <div className="nav-link">
-                <a href="#">Home</a>
+                <a href="/Home">Home</a>
                 <a href="/Create">New Blog</a>
                 <button type="button" onClick={() => handleClick('moda')}>Click</button>
             </div>
