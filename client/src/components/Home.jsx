@@ -25,7 +25,7 @@ export const Home = () => {
                     </div>
                     <div>
                         <a href=''>Unknown</a>
-                        <p></p>
+                        <p>Unknown</p>
                     </div>
                 </div>
             </div>
