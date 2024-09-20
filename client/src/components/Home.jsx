@@ -17,7 +17,7 @@ export const Home = () => {
         <>
             <div className={MainContent.MainContainer}>
                 {blogs.map(() => (
-                    
+                    <div className=''></div>
                 ))}
             </div>
         </>
