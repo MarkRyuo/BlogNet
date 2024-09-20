@@ -28,10 +28,10 @@
 .blogContent {
     border: 1px solid;
     width: 100%;
-    max-width: 300px;
     display: flex;
 }
 
 .blogName {
     font-weight: 500;
+    margin-right: 30px;
 }
