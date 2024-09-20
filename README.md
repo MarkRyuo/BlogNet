@@ -4,6 +4,7 @@
 ## V1.2 
     Multiple Components / Adding Styles
     CSS Module
+    Clicking Events
 
 
     V1.1
