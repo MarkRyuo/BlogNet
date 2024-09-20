@@ -4,9 +4,17 @@
     font-family: "Poppins", system-ui;
 }
 
+.Main {
+    display: flex;
+
+    /* border: 1px solid; */
+    justify-content: center;
+}
+
 .MainContent {
     width: 100%;
-    max-width: 350px;
+    height: 200px;
+    max-width: 400px;
     
     border: 1px solid red;
 }

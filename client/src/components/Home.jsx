@@ -16,7 +16,7 @@ export const Home = () => {
     const Link = 'https://www.google.com/' ;
     
     return (
-        <main>
+        <main className={MainContent.Main}>
             <div className={MainContent.MainContent}>
                 <h1 className={MainContent.Title}>{Title}</h1>
                 <a href={Link}>Google</a>
