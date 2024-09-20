@@ -1,6 +1,6 @@
 import './App.css'
 
-//* Dynamic Values and Templates
+//? Dynamic Values and Templates
 
 function App() {
 
