@@ -1,6 +1,29 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 70px; /* *Fix width */
+    border: 1px solid;
+    margin-bottom: 30px;
+}
 
 
 .Content {
-    
+    width: 100%; /** Fix width*/
+    height: 180px;
+    /* border: 1px solid; */
+
+    display: flex;
+    justify-content: center;
+}
+
+.Content .main-Content {
+    width: 100%;
+    max-width: 350px;
+
+
+    border: 1px solid red;
 }
