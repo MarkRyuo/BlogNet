@@ -15,7 +15,7 @@ export const Home = () => {
 
     return (
         <>
-            <div>
+            <div className=''>
                 {blogs.map(() => (
                     
                 ))}
