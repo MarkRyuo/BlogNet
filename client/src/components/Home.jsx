@@ -1,6 +1,11 @@
 
 
 const Home = () => {
+    const Title = 'New Blog' ;
+    const Likes = '90 Likes' ;
+    //*const Person = { name: 'Moda', age: 19 }
+    const Link = 'https://www.google.com/' ;
+    
     return (
         <>
             <div className='main-Content'>
