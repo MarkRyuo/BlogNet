@@ -1,5 +1,5 @@
 import MainContent from './Home.module.css' ;
-
+import { useState } from 'react';
 
 //* Css Module 
 /* 
@@ -10,8 +10,10 @@ import the module: e.g import MainContent from './Home.module.css' ;
 */
 export const Home = () => {
 
+    const [repost, setRepost] = useState() ;
+
     const handleRepost = () => {
-        
+
     }
     
     const Title = 'Homepage' ;
