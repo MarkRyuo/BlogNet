@@ -3,6 +3,7 @@ import { useState } from 'react';
 
 
 //* Use Map() Method 
+//* blogs.id is a unique identifier
 
 export const Home = () => {
 
@@ -16,9 +17,13 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContainer}>
-                {blogs.map(() => (
-                    <div className=''></div>
-                ))}
+                <div className={MainContent.blogContent}>
+                    {blogs.map(() => (
+                        <div key={blogs.id}>
+
+                        </div>
+                    ))}
+                </div>
             </div>
         </>
     );
