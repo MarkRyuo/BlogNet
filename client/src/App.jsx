@@ -16,11 +16,7 @@ function App() {
       <div className='App'>
         <NavBar/>
         <div className='Content'>
-            <div className='main-Content'>
-                <h1>{Title}</h1>
-                <a href={Link}>Google</a>
-                <p>{Likes}</p>
-            </div>
+            
         </div>
       </div>
     </>
