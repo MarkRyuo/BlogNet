@@ -9,7 +9,7 @@ export const Bloglist = (props) => {
     return (
         <>
             <div className={MainContent.blogContainer}>
-                <h1></h1>
+                <h1>{title}</h1>
                 {blogs.map((blog) => (
                     <div className={MainContent.blogContent} key={blog.id}>
                         <h1>Title: {blog.title}</h1>
