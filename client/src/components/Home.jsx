@@ -22,7 +22,7 @@ export const Home = () => {
                         <p>Img</p>
                     </div>
                     <div className={MainContent.blogCredential}>
-                        <a href=''>Name: Jhon Mark Malupa</a> 
+                        <a href='' style={{textDecoration: "none"}}>Name: Jhon Mark Malupa</a> 
                         <p>Post: Hello World</p>
                     </div>
                 </div>
