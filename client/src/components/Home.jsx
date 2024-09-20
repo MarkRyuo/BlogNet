@@ -10,7 +10,7 @@ import the module: e.g import MainContent from './Home.module.css' ;
 */
 export const Home = () => {
     
-    const Title = 'New Blog' ;
+    const Title = 'Homepage' ;
     const Likes = '90 Likes' ;
     //*const Person = { name: 'Moda', age: 19 }
     const Link = 'https://www.google.com/' ;
