@@ -4,15 +4,17 @@
 
 export const NavBar = () => {
 
+    const handleLogin = () => {
+        
+    }
+
     return (
         <nav>
             <h1 className="nav-Title">BlogNet</h1>
             <div className="nav-link">
                 <a href="#">Home</a>
                 <a href="/Create">New Blog</a>
-                <button onClick={() => {
-                    
-                }}>Log in</button>
+                <button onClick={() => {}}>Log in</button>
             </div>
         </nav>
     )
