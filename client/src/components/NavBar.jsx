@@ -1,5 +1,7 @@
 
 
+//* This nav is style via root in main.jsx
+
 export const NavBar = () => {
 
     return (
