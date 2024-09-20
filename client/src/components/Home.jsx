@@ -24,6 +24,7 @@ export const Home = () => {
                     <div className={MainContent.blogCredential}>
                         <a href='' style={{textDecoration: "none", fontSize: "1.5rem"}}>Jhon Mark Malupa</a> 
                         <p>Post: Hello World</p>
+                        <button type='button' onClick={() => {}}>Repost</button>
                     </div>
                 </div>
             </div>
