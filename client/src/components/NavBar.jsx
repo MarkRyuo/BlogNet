@@ -4,8 +4,8 @@
 
 export const NavBar = () => {
 
-    const handleLogin = () => {
-        
+    const handleClick = () => {
+
     }
 
     return (
@@ -14,7 +14,7 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="#">Home</a>
                 <a href="/Create">New Blog</a>
-                <button onClick={() => {}}>Log in</button>
+                <button onClick={() => {}}>Click</button>
             </div>
         </nav>
     )
