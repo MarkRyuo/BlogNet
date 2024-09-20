@@ -19,7 +19,7 @@ export const Home = () => {
 
                 <div className={MainContent.blogContent}>
                     <div className={MainContent.blogName}>
-                        <p>Img</p>
+                        <img src='' alt='Error Image'></img>
                     </div>
                     <div className={MainContent.blogCredential}>
                         <a href='' style={{textDecoration: "none"}}>Name: Jhon Mark Malupa</a> 
