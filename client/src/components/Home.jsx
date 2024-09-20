@@ -21,6 +21,8 @@ export const Home = () => {
                     {blogs.map(() => (
                         <div className={MainContent.blogContent} key={blogs.id}>
                             <h1>{blogs.title}</h1>
+                            <p>{blogs.author}</p>
+                            <p>{blogs.}</p>
                         </div>
                     ))}
                 </div>
