@@ -4,9 +4,7 @@
 
 export const NavBar = () => {
 
-    const handleClick = (user) => {
-        console.log("Clicked by: " + user)
-    }
+    
 
     return (
         <nav>
@@ -14,7 +12,6 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="/Home">Home</a>
                 <a href="/Create">New Blog</a>
-                <button type="button" onClick={() => handleClick('moda')}>Click</button>
             </div>
         </nav>
     )
