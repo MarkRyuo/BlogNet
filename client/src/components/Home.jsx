@@ -17,10 +17,10 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContainer}>
-                <div className={MainContent.blogContent}>
+                <div className={MainContent.blogContainer}>
                     {blogs.map(() => (
-                        <div key={blogs.id}>
-                            
+                        <div className='' key={blogs.id}>
+
                         </div>
                     ))}
                 </div>
