@@ -19,10 +19,10 @@ export const Home = () => {
 
                 <div className={MainContent.blogContent}>
                     <div className={MainContent.blogName}>
-                        <p>{'Moda'}</p>
+                        <p>{'Jhon Mark Malupa'}</p>
                     </div>
                     <div className={MainContent.blogCredential}>
-                        <a href=''>Unknown Link</a>
+                        <a href=''>Jhon Mark Malupa</a> 
                         <p>Unknown</p>
                     </div>
                 </div>
