@@ -1,5 +1,9 @@
 # BlogNet
 
 
-## V1.1 Latest
-    Dynamic Values and Templates
+## V1.2 
+    Multiple Components
+
+
+    V1.1
+        Dynamic Values and Templates
