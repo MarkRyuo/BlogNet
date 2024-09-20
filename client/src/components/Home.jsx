@@ -10,7 +10,7 @@ import the module: e.g import MainContent from './Home.module.css' ;
 */
 export const Home = () => {
 
-    const [repost, setRepost] = useState() ;
+    const [repost, setRepost] = useState("Jhon Mark Malupa") ;
 
     const handleRepost = () => {
 
