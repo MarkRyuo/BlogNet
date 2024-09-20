@@ -1,9 +1,10 @@
-import { useState } from "react"
+import { useState } from "react" ;
 
 //* This nav is style via root in main.jsx
 
 export const NavBar = () => {
 
+    const [navTitle, setNavTitle ] = useState("BlogNet")
 
 
     return (
