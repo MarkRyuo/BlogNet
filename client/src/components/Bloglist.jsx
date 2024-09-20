@@ -1,6 +1,12 @@
 import MainContent from './Home.module.css' ;
 
 
+interface Propsbloglist {
+    blogs: string ;
+    title: string ;
+}
+
+
 export const Bloglist = (props) => {
 
     const blogs = props.blogs ;
