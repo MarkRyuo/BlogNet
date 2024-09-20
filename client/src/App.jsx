@@ -8,7 +8,7 @@ function App() {
     name: 'Moda',
     age: 19
   }
-  const GoogleSite = 'https://www.google.com/'
+  const GoogleSite = 'https://www.google.com/' ;
 
 
   return (
@@ -19,7 +19,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>{Title}</h1>
-            <p>{...Person.name}</p>
+            <a href={GoogleSite}>Google</a>
             <p>{Likes}</p>
         </div>
       </div>
