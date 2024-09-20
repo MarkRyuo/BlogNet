@@ -21,21 +21,8 @@ export const Home = () => {
     const Title = 'Homepage' ;
     
     return (
-        <main className={MainContent.Main}>
-            <div className={MainContent.MainContent}>
-                <h1 className={MainContent.Title}>{Title}</h1>
+        <>
 
-                <div className={MainContent.blogContent}>
-                    <div className={MainContent.blogImg}>
-                        <img src='https://i.pinimg.com/originals/c2/fc/1c/c2fc1c0469a53d9d5a9d53e56fb96170.jpg' alt='Error Image' className='' style={{width: "100%", borderRadius: "100px", maxWidth: "100px"}} />
-                    </div>
-                    <div className={MainContent.blogCredential}>
-                        <a href='' style={{textDecoration: "none", fontSize: "1.5rem"}}>{repost}</a> 
-                        <p>Post: {post} {repost}</p>
-                        <button type='button' onClick={() => {handleRepost()}}>Repost</button>
-                    </div>
-                </div>
-            </div>
-        </main>
+        </>
     );
 }
