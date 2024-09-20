@@ -14,7 +14,7 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="#">Home</a>
                 <a href="/Create">New Blog</a>
-                <button type="button" onClick={() => {}}>Click</button>
+                <button type="button" onClick={() => handleClick('moda')}>Click</button>
             </div>
         </nav>
     )
