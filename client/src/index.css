@@ -25,3 +25,13 @@ nav {
     justify-content: center;
 }
 
+.nav-link {
+    border: 1px solid red;
+    width: 100%;
+    max-width: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: ;
+}
+
