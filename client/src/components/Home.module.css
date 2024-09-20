@@ -43,7 +43,7 @@
     border: 1px solid;
 
     font-weight: 500;
-    margin-right: 30px;
+
     padding: 10px 10px; /** x and y */
     
     grid-column: 1 / 5;
@@ -51,5 +51,6 @@
 }
 
 .blogCredential {
-    
+
+    grid-column: ;
 }

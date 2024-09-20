@@ -21,7 +21,7 @@ export const Home = () => {
                     <div className={MainContent.blogName}>
                         <p>{'Moda'}</p>
                     </div>
-                    <div className=''>
+                    <div className={MainContent.blogContent}>
                         <a href=''>Unknown Link</a>
                         <p>Unknown</p>
                     </div>
