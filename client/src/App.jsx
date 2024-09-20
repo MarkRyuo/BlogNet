@@ -1,5 +1,7 @@
 import './App.css'
 
+//* Dynamic Values and Templates
+
 function App() {
 
   const Title = 'New Blog' ;
