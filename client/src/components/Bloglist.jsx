@@ -3,9 +3,13 @@ import MainContent from './Home.module.css' ;
 
 export const Bloglist = (props) => {
 
+    const blogs = props.blogs ;
+    const title = props.title ;
+
     return (
         <>
             <div className={MainContent.blogContainer}>
+                <h1></h1>
                 {blogs.map((blog) => (
                     <div className={MainContent.blogContent} key={blog.id}>
                         <h1>Title: {blog.title}</h1>

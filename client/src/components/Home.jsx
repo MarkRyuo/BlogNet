@@ -18,7 +18,7 @@ export const Home = () => {
     return (
         <>
             <div className={MainContent.MainContainer}>
-                <Bloglist />
+                <Bloglist blogs={blogs} title=''/>
             </div>
         </>
     );
