@@ -1,6 +1,6 @@
 import './App.css'
 import { NavBar } from './components/NavBar';
-import { Home } from './components/Home'
+import { Home } from './components/Home' ;
 
 //? Dynamic Values and Templates
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className='App'>
-        <NavBar/>
+        <NavBar />
         <div className='Content'>
             <Home/>
         </div>
