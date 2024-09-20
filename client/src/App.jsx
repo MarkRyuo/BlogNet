@@ -4,10 +4,7 @@ function App() {
 
   const Title = 'New Blog' ;
   const Likes = '90 Likes' ;
-  const Person = {
-    name: 'Moda',
-    age: 19
-  }
+  //*const Person = { name: 'Moda', age: 19 }
   const GoogleSite = 'https://www.google.com/' ;
 
 
