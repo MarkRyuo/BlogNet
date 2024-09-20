@@ -12,10 +12,10 @@ export const Home = () => {
         {title: "Beyond to the Infinite", author: "Riyuo", id: "3"}
     ])
 
-    
+
     return (
         <>
-
+            div
         </>
     );
 }
