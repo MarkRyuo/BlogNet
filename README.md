@@ -5,6 +5,7 @@
 
     v1.4 
         useState() - Hooks 
+        map() - Method 
 
     v1.3 
         Blog Dashboard Testing Design
