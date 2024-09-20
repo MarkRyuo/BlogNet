@@ -9,7 +9,7 @@ export const NavBar = () => {
 
     return (
         <nav>
-            <h1 className="nav-Title">BlogNet</h1>
+            <h1 className="nav-Title">{navTitle}</h1>
             <div className="nav-link">
                 <a href="/Home ">Home</a>
                 <a href="/Create">New Blog</a>
