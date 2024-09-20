@@ -17,9 +17,11 @@ function App() {
           <h1>Navigation</h1>
         </nav>
         <div className='Content'>
-            <h1>{Title}</h1>
-            <a href={Link}>Google</a>
+            <div className=''>
+                <h1>{Title}</h1>
+                <a href={Link}>Google</a>
             <p>{Likes}</p>
+            </div>
         </div>
       </div>
     </>
