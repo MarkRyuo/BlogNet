@@ -6,6 +6,7 @@ export const NavBar = () => {
 
     const [navTitle, setNavTitle ] = useState("BlogNet")
 
+    
 
     return (
         <nav>
@@ -13,7 +14,7 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="/Home ">Home</a>
                 <a href="/Create">New Blog</a>
-                <button type="button">Change</button>
+                <button type="button" onClick={() => {handleChange}}>Change</button>
             </div>
         </nav>
     )
