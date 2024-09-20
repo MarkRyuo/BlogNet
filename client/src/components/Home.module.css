@@ -34,4 +34,5 @@
 .blogName {
     font-weight: 500;
     margin-right: 30px;
+    padding: 10px 10px; /**x and y */
 }
