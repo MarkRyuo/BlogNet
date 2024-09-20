@@ -15,7 +15,11 @@ export const Home = () => {
 
     return (
         <>
-            div
+            <div>
+                {blogs.map(() => (
+                    
+                ))}
+            </div>
         </>
     );
 }
