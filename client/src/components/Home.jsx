@@ -1,4 +1,4 @@
-import {MainContent} from './Home.Module.css'
+import MainContent from './Home.Module.css' ;
 
 
 //* Css Module
