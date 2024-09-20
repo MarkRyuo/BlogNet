@@ -19,7 +19,7 @@ export const Home = () => {
         <main className={MainContent.Main}>
             <div className={MainContent.MainContent}>
                 <h1 className={MainContent.Title}>{Title}</h1>
-                
+
                 <div className={MainContent.blogContent}>
                     <div className={MainContent.blogName}>
                         <p>{'Moda'}</p>
