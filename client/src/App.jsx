@@ -1,4 +1,5 @@
 import './App.css'
+import { NavBar } from './components/NavBar';
 
 //? Dynamic Values and Templates
 
@@ -13,9 +14,7 @@ function App() {
   return (
     <>
       <div className='App'>
-        <nav>
-          <h1>Navigation</h1>
-        </nav>
+        <NavBar/>
         <div className='Content'>
             <div className='main-Content'>
                 <h1>{Title}</h1>
