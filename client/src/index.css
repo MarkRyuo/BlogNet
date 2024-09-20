@@ -9,6 +9,9 @@ nav {
     /* *Fix width */
     border: 1px solid;
     margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
 }
 
 
