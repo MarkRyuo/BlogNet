@@ -2,5 +2,9 @@
 
 export const Bloglist = () => {
 
-    
+    return (
+        <>
+            
+        </>
+    )
 }
