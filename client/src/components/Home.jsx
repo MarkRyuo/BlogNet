@@ -9,6 +9,10 @@ import the module: e.g import MainContent from './Home.module.css' ;
 
 */
 export const Home = () => {
+
+    const handleRepost = () => {
+        
+    }
     
     const Title = 'Homepage' ;
     
