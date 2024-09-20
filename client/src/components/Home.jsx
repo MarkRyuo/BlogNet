@@ -30,7 +30,7 @@ export const Home = () => {
                     <div className={MainContent.blogCredential}>
                         <a href='' style={{textDecoration: "none", fontSize: "1.5rem"}}>{fname}</a> 
                         <p>Post: Hello World</p>
-                        <button type='button' onClick={() => {handleRepost()}}>Repost</button>
+                        <button type='button' onClick={() => {handleRepost}}>Repost</button>
                     </div>
                 </div>
             </div>
