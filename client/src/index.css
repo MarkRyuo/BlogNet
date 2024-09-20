@@ -15,10 +15,6 @@ nav {
     align-items: center;
 }
 
-.nav-Title {
-    margin-left: px;
-}
-
 .nav-link {
     border: 1px solid red;
     width: 100%;
@@ -27,5 +23,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: ;
+}
+
+.nav-link a {
+    text-decoration: none;
 }
 
