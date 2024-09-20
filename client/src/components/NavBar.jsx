@@ -6,7 +6,7 @@ export const NavBar = () => {
 
     return (
         <nav>
-            <h1 className="nav">BlogNet</h1>
+            <h1 className="nav-Title">BlogNet</h1>
             <div className="nav-link">
                 <a href="#">Home</a>
                 <a href="/Create">New Blog</a>

@@ -11,12 +11,12 @@ nav {
     margin-bottom: 30px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-h1 {
-    margin-left: 5px;
+.nav-Title {
+    margin-left: px;
 }
 
 .nav-link {
