@@ -55,4 +55,6 @@
     border: 1px solid;
     grid-column: 3 / 5 ;
     grid-row: 1 / 5;
+
+    padding-top: 15px;
 }
