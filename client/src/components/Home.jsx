@@ -18,11 +18,10 @@ export const Home = () => {
         <>
             <div className={MainContent.MainContainer}>
                 <div className={MainContent.blogContainer}>
-                    {blogs.map(() => (
+                    {blogs.map((blog) => (
                         <div className={MainContent.blogContent} key={blogs.id}>
-                            <h1>{blogs.title}</h1>
-                            <p>{blogs.author}</p>
-                            <p>{blogs.}</p>
+                            <h1>Title: {blog.title}</h1>
+                            <p>Author{blog.author}</p>
                         </div>
                     ))}
                 </div>
