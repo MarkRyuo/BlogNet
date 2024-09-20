@@ -2,6 +2,8 @@ import { useState } from "react" ;
 
 //* This nav is style via root in main.jsx
 
+//* Using hook(useState) to change the nav title
+
 export const NavBar = () => {
 
     const [navTitle, setNavTitle ] = useState("BlogNet")
