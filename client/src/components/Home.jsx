@@ -11,6 +11,7 @@ import the module: e.g import MainContent from './Home.module.css' ;
 export const Home = () => {
 
     const [repost, setRepost] = useState("Jhon Mark Malupa") ;
+    const [post, setRepost] = useState("Hello World")
 
     const handleRepost = () => {
         setRepost("Moda Official")
@@ -29,8 +30,8 @@ export const Home = () => {
                     </div>
                     <div className={MainContent.blogCredential}>
                         <a href='' style={{textDecoration: "none", fontSize: "1.5rem"}}>{repost}</a> 
-                        <p>Post: Hello World</p>
-                        <button type='button' onClick={() => {handleRepost}}>Repost</button>
+                        <p>Post: {post}</p>
+                        <button type='button' onClick={() => {handleRepost()}}>Repost</button>
                     </div>
                 </div>
             </div>
