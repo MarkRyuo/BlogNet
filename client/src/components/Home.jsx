@@ -2,6 +2,7 @@
 
 
 const Home = () => {
+    
     const Title = 'New Blog' ;
     const Likes = '90 Likes' ;
     //*const Person = { name: 'Moda', age: 19 }
