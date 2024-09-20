@@ -2,7 +2,6 @@
 
 
 //* Css Module
-
 export const Home = () => {
     
     const Title = 'New Blog' ;
