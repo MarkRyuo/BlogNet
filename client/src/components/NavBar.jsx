@@ -12,6 +12,7 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="/Home ">Home</a>
                 <a href="/Create">New Blog</a>
+                <button type="button">Change</button>
             </div>
         </nav>
     )
