@@ -18,8 +18,8 @@ export const Home = () => {
                 <h1 className={MainContent.Title}>{Title}</h1>
 
                 <div className={MainContent.blogContent}>
-                    <div className={MainContent.blogName}>
-                        <img src='' alt='Error Image'></img>
+                    <div className={MainContent.blogImg}>
+                        <img src='..' alt='Error Image' className='' />
                     </div>
                     <div className={MainContent.blogCredential}>
                         <a href='' style={{textDecoration: "none"}}>Name: Jhon Mark Malupa</a> 
