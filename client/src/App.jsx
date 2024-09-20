@@ -16,7 +16,7 @@ function App() {
         </nav>
         <div className='Content'>
             <h1>{Title}</h1>
-            <a href={GoogleSite}>Google</a>
+            <a href={Link}>Google</a>
             <p>{Likes}</p>
         </div>
       </div>
