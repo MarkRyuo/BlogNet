@@ -1,3 +1,4 @@
+import { Home } from './components/Home';
 import { NavBar } from './components/NavBar';
 
 //? Dynamic Values and Templates
@@ -10,7 +11,7 @@ function App() {
       <div className='App'>
         <NavBar />
         <div className='Content'>
-          <Home/>
+          <Home />
         </div>
       </div>
     </>
