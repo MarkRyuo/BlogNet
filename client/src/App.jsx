@@ -5,11 +5,10 @@ function App() {
   const Title = 'New Blog' ;
   const Likes = '90 Likes' ;
   const Person = {
-    person1 : {
-      name: 'Moda',
-      age: 19
-    }
+    name: 'Moda',
+    age: 19
   }
+  const GoogleSite = 'https://www.google.com/'
 
 
   return (
