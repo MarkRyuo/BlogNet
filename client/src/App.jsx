@@ -17,10 +17,10 @@ function App() {
           <h1>Navigation</h1>
         </nav>
         <div className='Content'>
-            <div className=''>
+            <div className='main-Content'>
                 <h1>{Title}</h1>
                 <a href={Link}>Google</a>
-            <p>{Likes}</p>
+                <p>{Likes}</p>
             </div>
         </div>
       </div>
