@@ -16,7 +16,7 @@ export const NavBar = () => {
             <div className="nav-link">
                 <a href="/Home ">Home</a>
                 <a href="/Create">New Blog</a>
-                <button type="button" onClick={() => {handleChange}}>Change</button>
+                <button type="button" onClick={() => handleChange()}>Change</button>
             </div>
         </nav>
     )
