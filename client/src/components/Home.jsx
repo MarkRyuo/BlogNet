@@ -1,7 +1,7 @@
 
 
 
-const Home = () => {
+export const Home = () => {
     
     const Title = 'New Blog' ;
     const Likes = '90 Likes' ;
@@ -18,4 +18,3 @@ const Home = () => {
         </>
     );
 }
-export default Home;
