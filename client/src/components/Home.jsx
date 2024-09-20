@@ -1,4 +1,4 @@
-
+import {Main-Content} from './Home.Module.css'
 
 
 //* Css Module
