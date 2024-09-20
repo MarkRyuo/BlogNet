@@ -11,7 +11,6 @@ import the module: e.g import MainContent from './Home.module.css' ;
 export const Home = () => {
     
     const Title = 'Homepage' ;
-    const Likes = '90 Likes' ;
     //*const Person = { name: 'Moda', age: 19 }
     const Link = 'https://www.google.com/' ;
     
@@ -25,8 +24,8 @@ export const Home = () => {
                         <p>{'Moda'}</p>
                     </div>
                     <div>
-                        <a href={Link}>Google</a>
-                        <p>{Likes}</p>
+                        <a href=''>Unknown</a>
+                        <p></p>
                     </div>
                 </div>
             </div>
