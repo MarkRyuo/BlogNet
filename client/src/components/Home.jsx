@@ -23,8 +23,10 @@ export const Home = () => {
                     <div className=''>
                         <p>{'Moda'}</p>
                     </div>
-                    <a href={Link}>Google</a>
-                    <p>{Likes}</p>
+                    <div className=''>
+                        <a href={Link}>Google</a>
+                        <p>{Likes}</p>
+                    </div>
                 </div>
             </div>
         </main>
