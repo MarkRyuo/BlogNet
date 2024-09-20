@@ -19,7 +19,7 @@ export const Home = () => {
             <div className={MainContent.MainContainer}>
                 <div className={MainContent.blogContainer}>
                     {blogs.map(() => (
-                        <div className='' key={blogs.id}>
+                        <div className={MainContent.blogConte} key={blogs.id}>
 
                         </div>
                     ))}
