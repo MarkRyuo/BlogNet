@@ -6,6 +6,7 @@
     v1.4 
         useState() - Hooks 
         map() - Method 
+        props
 
     v1.3 
         Blog Dashboard Testing Design
