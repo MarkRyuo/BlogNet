@@ -1,4 +1,4 @@
-import {Main-Content} from './Home.Module.css'
+import {MainContent} from './Home.Module.css'
 
 
 //* Css Module
@@ -11,7 +11,7 @@ export const Home = () => {
     
     return (
         <>
-            <div className='main-Content'>
+            <div className={MainContent.MainContent}>
                 <h1>{Title}</h1>
                 <a href={Link}>Google</a>
                 <p>{Likes}</p>
