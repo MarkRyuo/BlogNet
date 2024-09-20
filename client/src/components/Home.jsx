@@ -20,6 +20,7 @@ export const Home = () => {
             <div className={MainContent.MainContent}>
                 <h1 className={MainContent.Title}>{Title}</h1>
                 <div className=''>
+                    <p>{'Moda'}</p>
                     <a href={Link}>Google</a>
                     <p>{Likes}</p>
                 </div>
