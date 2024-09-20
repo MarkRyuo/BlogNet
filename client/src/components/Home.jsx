@@ -9,7 +9,7 @@ export const Home = () => {
     const [blogs, setBlogs] = useState([
         {title: "Beyond to the Infinite", author: "Moda", id: "1"},
         {title: "Beyond to the Infinite: Moon Arc", author: "Niyari", id: "2"},
-        {title: "Beyond to the Infinite", author: "Riyuo", id: "3"}
+        {title: "Beyond to the Infinite: The End Arc", author: "Riyuo", id: "3"}
     ])
 
 
